@@ -18,7 +18,7 @@ Heal The Earth
 #### 请求参数
 	* 灾难提交日期 -- date, 格式为yyyy-mm-dd
 #### 返回字段
-	* 错误码 -- error_code, 0:代表失败， 1:代表成功
+	* 错误码 -- error_code
 	* 错误信息 -- error_msg
 	* 结果 -- data, 为键值对,条目字段如下
 		* date -- 灾难提交日期
