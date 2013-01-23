@@ -3,7 +3,7 @@ Heal The Earth
 版本：0.1  
 作者：[文绍斌](mailto:ultraman_wen@sina.com)
 
-本文档用于描述BetIt的客户端接口
+本文档用于描述Heal The Earth的客户端接口
 ******************************
 索引
 ----
