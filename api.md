@@ -25,6 +25,7 @@ Heal The Earth
 	* 错误码 -- error_code
 	* 错误信息 -- error_msg
 	* 结果 -- data, 灾难信息列表,条目字段如下
+		* disaster_id, 灾难id
 		* date -- 灾难提交日期
 		* content -- 灾难对应微博内容
 		* image_url -- 灾难图片
@@ -36,24 +37,6 @@ Heal The Earth
 		* latitude -- 灾难发生地点纬度
 		* longitude -- 灾难发生地点经度
 #### 样例
-	{
-		"error_code": "0000",
-	    "error_msg": "",
-	    "data": [
-	        {
-	        	"date": "2013-01-02",
-	        	"content": "2013-01-02，此处发生一起accident",
-	        	"image_url": "http://hte4mj-htedata.stor.sinaapp.com/images/02%2820130102194543%29.jpg",
-	            "kind_count": 0,
-	            "msg_count": 260,
-	            "relay_count": 60,
-	            "threshold": 12345,
-	            "status_id": 3530109460382137,
-	            "latitude": 23.146678,
-	            "longitude": 113.368159,
-	        }
-	    ],
-	}
 [↑返回顶部](#betit)
 
 <h2>用户拯救历史接口</h2>
@@ -69,28 +52,35 @@ Heal The Earth
 		* operation -- 拯救类型，0：献爱心；1：祝福；2：传播
 		* date -- 拯救发生日期
 #### 样例
-	{
-		"error_code": "1000",
-	    "error_msg": ""
-	    "data": [
-	        {
-	            "date": "2013-01-11",
-	            "operation": 1,
-	            "disaster_id": 19,
-	            "uid": 1978225951
-	        },
-	        {
-	            "date": "2013-01-07",
-	            "operation": 1,
-	            "disaster_id": 18,
-	            "uid": 1978225951
-	        },
-	        {
-	            "date": "2013-01-06",
-	            "operation": 1,
-	            "disaster_id": 18,
-	            "uid": 1978225951
-	        }
-	    ],
-	}
+[↑返回顶部](#betit)
+
+<h2>用户信息接口</h2>
+域名
+#### 请求参数
+	* 要查询的用户id -- uid
+#### 返回字段
+	* 错误码 -- error_code
+	* 错误信息 -- error_msg
+	* 返回结果 -- data，条目字段如下
+		* uid -- 用户id
+		* heal_point -- 用户持有拯救分数
+		* level -- 用户等级
+#### 样例
+
+<h2>拯救灾难接口</h2>
+域名
+#### 请求参数
+	* 拯救用户id -- uid
+	* 目标灾难id -- disaster_id
+#### 返回结果
+	* 错误码 -- error_code
+	* 错误信息 -- error_msg
+
+<h2>新用户添加接口</h2>
+域名
+#### 请求参数
+	* 登录用户的id -- uid
+#### 返回结果
+	* 错误码 -- error_code
+	* 错误信息 -- error_msg
 [↑返回顶部](#betit)
