@@ -1,4 +1,4 @@
-HealTheEarth
+#Heal The Earth
 =====
 版本：0.1  
 作者：[文绍斌](mailto:ultraman_wen@sina.com)
@@ -40,7 +40,7 @@ HealTheEarth
 			* longitude -- 灾难发生地点经度
 		* data[count] -- 列表条目数
 #### 样例
-[↑返回顶部](#HealTheEarth)
+[↑返回顶部](#Heal The Earth)
 
 <h2>灾难详情接口</h2>
 域名:http://hte4mj.sinaapp.com/api/disaster
