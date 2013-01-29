@@ -40,7 +40,7 @@ Heal The Earth
 			* longitude -- 灾难发生地点经度
 		* data[count] -- 列表条目数
 #### 样例
-[↑返回顶部](#betit)
+[↑返回顶部](#Heal The Earth)
 
 <h2>灾难详情接口</h2>
 域名:http://hte4mj.sinaapp.com/api/disaster
@@ -64,7 +64,7 @@ Heal The Earth
 			* threshold -- 阀值
 			* state -- 拯救是否成功，0：拯救未成功，1：拯救成功
 			* healed -- 参与拯救标志（当uid未传入时此字段无意义），0：当前用户已参与拯救，1：当前用户未参与拯救
-[↑返回顶部](#betit)
+[↑返回顶部](#Heal The Earth)
 
 <h2>用户拯救历史接口</h2>
 域名:http://hte4mj.sinaapp.com/api/healed_timeline
@@ -83,7 +83,7 @@ Heal The Earth
 			* state -- 拯救是否成功，0：拯救未成功，1：拯救成功
 		* data[count] -- 列表条目数
 #### 样例
-[↑返回顶部](#betit)
+[↑返回顶部](#Heal The Earth)
 
 <h2>用户信息接口</h2>
 域名:http://hte4mj.sinaapp.com/api/user
