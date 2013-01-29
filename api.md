@@ -1,4 +1,4 @@
-heal_the_earth
+heal the earth
 ==============
 
 版本：0.1  
@@ -41,7 +41,7 @@ heal_the_earth
 			* longitude -- 灾难发生地点经度
 		* data[count] -- 列表条目数
 #### 样例
-[↑返回顶部](#heal_the_earth)
+[↑返回顶部](#heal the earth)
 
 <h2>灾难详情接口</h2>
 域名:http://hte4mj.sinaapp.com/api/disaster
