@@ -1,9 +1,10 @@
-# Heal The Earth
+heal_the_earth
+==============
 
 版本：0.1  
 作者：[文绍斌](mailto:ultraman_wen@sina.com)
 
-本文档用于描述Heal The Earth的客户端接口
+本文档用于描述heal_the_earth的客户端接口
 ******************************
 索引
 ----
@@ -40,7 +41,7 @@
 			* longitude -- 灾难发生地点经度
 		* data[count] -- 列表条目数
 #### 样例
-[↑返回顶部](#Heal The Earth)
+[↑返回顶部](#heal_the_earth)
 
 <h2>灾难详情接口</h2>
 域名:http://hte4mj.sinaapp.com/api/disaster
