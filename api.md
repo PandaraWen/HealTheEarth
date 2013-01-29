@@ -148,7 +148,7 @@
 	* 错误码 -- error_code
 	* 错误信息 -- error_msg
 #### 样例
-[↑返回顶部](#拯救地球))
+[↑返回顶部](#拯救地球)
 
 <h2>传播接口</h2>
 域名:http://hte4mj.sinaapp.com/api/relay
