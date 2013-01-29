@@ -26,7 +26,6 @@
 <h2>灾难列表接口</h2>
 域名:http://hte4mj.sinaapp.com/api/disaster_timeline
 #### 请求参数
-	* 灾难提交日期 -- date, 格式为yyyy-mm-dd
 	* 页码 -- page，默认为1
 	* 单页记录数 -- perpage，默认为7
 #### 返回字段
