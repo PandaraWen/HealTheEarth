@@ -77,7 +77,7 @@
 	* 错误码 -- error_code
 	* 错误信息 -- error_msg
 	* 结果 -- data, json数组，本操作返回两个数据
-		* data[healeds] -- 拯救行为信息，具体内容如下
+		* data[healeds] -- 拯救行为列表，具体内容如下
 			* disaster_id -- 灾难id
 			* operation -- 拯救类型，0：献爱心；1：祝福；2：传播
 			* date -- 拯救日期
