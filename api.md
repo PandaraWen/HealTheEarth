@@ -1,10 +1,10 @@
-heal the earth
+拯救地球
 ==============
 
 版本：0.1  
 作者：[文绍斌](mailto:ultraman_wen@sina.com)
 
-本文档用于描述heal_the_earth的客户端接口
+本文档用于描述“拯救地球”的客户端接口
 ******************************
 索引
 ----
@@ -41,7 +41,7 @@ heal the earth
 			* longitude -- 灾难发生地点经度
 		* data[count] -- 列表条目数
 #### 样例
-[↑返回顶部](#heal the earth)
+[↑返回顶部](#拯救地球)
 
 <h2>灾难详情接口</h2>
 域名:http://hte4mj.sinaapp.com/api/disaster
@@ -65,7 +65,7 @@ heal the earth
 			* threshold -- 阀值
 			* state -- 拯救是否成功，0：拯救未成功，1：拯救成功
 			* healed -- 参与拯救标志（当uid未传入时此字段无意义），0：当前用户已参与拯救，1：当前用户未参与拯救
-[↑返回顶部](#Heal The Earth)
+[↑返回顶部](#拯救地球)
 
 <h2>用户拯救历史接口</h2>
 域名:http://hte4mj.sinaapp.com/api/healed_timeline
@@ -84,7 +84,7 @@ heal the earth
 			* state -- 拯救是否成功，0：拯救未成功，1：拯救成功
 		* data[count] -- 列表条目数
 #### 样例
-[↑返回顶部](#Heal The Earth)
+[↑返回顶部](#拯救地球)
 
 <h2>用户信息接口</h2>
 域名:http://hte4mj.sinaapp.com/api/user
@@ -98,7 +98,7 @@ heal the earth
 		* heal_point -- 持有拯救分
 		* level -- 等级
 #### 样例
-[↑返回顶部](#Heal The Earth)
+[↑返回顶部](#拯救地球)
 
 <h2>通知列表接口</h2>
 域名:http://hte4mj.sinaapp.com/api/notice_timeline
@@ -115,7 +115,7 @@ heal the earth
 			* date -- 通知发出日期
 		* data[count] -- 列表条目数
 #### 样例
-[↑返回顶部](#Heal The Earth)
+[↑返回顶部](#拯救地球)
 
 <h2>登陆接口</h2>
 域名:http://hte4mj.sinaapp.com/api/new_account
@@ -126,7 +126,7 @@ heal the earth
 	* error_code -- 错误代码
 	* error_msg -- 错误信息
 #### 样例
-[↑返回顶部](#Heal The Earth)
+[↑返回顶部](#拯救地球)
 
 <h2>献爱心接口</h2>
 域名:http://hte4mj.sinaapp.com/api/kind
@@ -137,7 +137,7 @@ heal the earth
 	* 错误码 -- error_code
 	* 错误信息 -- error_msg
 #### 样例
-[↑返回顶部](#Heal The Earth)
+[↑返回顶部](#拯救地球)
 
 <h2>祝福接口</h2>
 域名:http://hte4mj.sinaapp.com/api/msg
@@ -148,7 +148,7 @@ heal the earth
 	* 错误码 -- error_code
 	* 错误信息 -- error_msg
 #### 样例
-[↑返回顶部](#Heal The Earth)
+[↑返回顶部](#拯救地球))
 
 <h2>传播接口</h2>
 域名:http://hte4mj.sinaapp.com/api/relay
@@ -159,4 +159,4 @@ heal the earth
 	* 错误码 -- error_code
 	* 错误信息 -- error_msg
 #### 样例
-[↑返回顶部](#Heal The Earth)
+[↑返回顶部](#拯救地球)
