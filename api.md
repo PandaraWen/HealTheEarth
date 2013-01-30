@@ -33,6 +33,7 @@
 	* 错误信息 -- error_msg
 	* 结果 -- data, json数组，返回两个数据
 		* data[disasters] -- 灾难列表，具体内容如下
+			* date -- 灾难提交日期
 			* disaster_id -- 灾难id
 			* content -- 灾难对应微博内容
 			* image_url -- 灾难图片
@@ -45,7 +46,6 @@
 <h2>灾难详情接口</h2>
 域名:http://hte4mj.sinaapp.com/api/disaster
 #### 请求参数
-	* 登录用户id -- uid，(可选)
 	* 灾难id -- disaster_id
 #### 返回值
 	* 错误代码 -- error_code
@@ -63,7 +63,6 @@
 			* relay_count -- 传播数
 			* threshold -- 阀值
 			* state -- 拯救是否成功，0：拯救未成功，1：拯救成功
-			* healed -- 参与拯救标志（当uid未传入时此字段无意义），0：当前用户已参与拯救，1：当前用户未参与拯救
 [↑返回顶部](#拯救地球)
 
 <h2>用户拯救历史接口</h2>
